@@ -1,0 +1,179 @@
+/*
+Plugin Name: Edge Plus
+Plugin URI: http://themefreesia.com/plugins/edge-plus
+Description: Edge Plus plugins  will only support for Edge Theme. You can get additional features and unlimited Color options, Fontsize, Google Fonts, Pro Sidebar, Pro Template and many more.
+Version: 2.0.1
+Author:Theme Freesia
+Author URI: http://themefreesia.com
+Text Domain: edge-plus
+License: GPLV3
+*/
+/* Footer column
+================================================== */
+.column-1,
+.column-2,
+.column-3,
+.column-4 {
+   float: left;
+   padding: 0 20px 40px;
+}
+.column-1 {
+   width:100%;
+}
+.column-2 {
+   width: 50%;
+}
+.column-3 {
+   width: 33.33%;
+}
+.column-4 {
+   width: 25%;
+}
+.column-2:nth-child(2n+3),
+.column-3:nth-child(3n+4),
+.column-4:nth-child(4n+5) {
+   clear: both;
+}
+#colophon .column-1,
+#colophon .column-2,
+#colophon .column-3,
+#colophon .column-4 {
+   margin-bottom: 30px;
+   padding: 0 30px;
+   border-right: 1px solid #e4e4e4;
+      display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: -webkit-flex;     /* NEW - Chrome */
+   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      -webkit-box-orient: vertical;
+       -moz-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -moz-box-direction: normal;
+       -ms-flex-direction: column;
+       -webkit-flex-direction: column;
+    flex-direction: column;
+}
+#colophon .column-1:last-child,
+#colophon .column-2:last-child,
+#colophon .column-3:last-child,
+#colophon .column-4:last-child {
+   border-right: none;
+}
+
+/* ----- Left Sidebar Layout ----- */
+.left-sidebar-layout #primary {
+   float: right;
+   padding-right: 0px;
+}
+.left-sidebar-layout #secondary {
+   border-left: none;
+   padding-right: 40px;
+   padding-left: 0px;
+   float: left;
+}
+
+/* ----- No Sidebar Layout ----- */
+.no-sidebar-layout #main {
+   max-width: 708px;
+   margin: 0 auto;
+}
+
+/* Social Links */
+.social-links a[href*="youtube.com"]:hover {
+   background-color: #DE1A2A;
+   color: #FFF;
+}
+.social-links a[href*="vimeo.com"]:hover {
+   background-color: #17B3E8;
+   color: #FFF;
+}
+.social-links a[href*="skype.com"]:hover {
+   background-color: #00ADEF;
+   color: #FFF;
+}
+.social-links a[href*="xing.com"]:hover {
+   background-color: #005A5F;
+   color: #FFF;
+}
+.social-links a[href*="slack.com"]:hover {
+   background-color: #5D3A58;
+   color: #FFF;
+}
+.social-links a[href*="wordpress.com"]:hover,
+.social-links a[href*="wordpress.org"]:hover {
+   background-color: #464442;
+   color: #FFF;
+}
+.social-links a[href*="github.com"]:hover {
+   background-color: #000000;
+   color: #FFF;
+}
+.social-links a[href*="bitbucket.org"]:hover {
+   background-color: #1F5081;
+   color: #FFF;
+}
+.social-links a[href*="jsfiddle.net"]:hover {
+   background-color: #4679A4;
+   color: #FFF;
+}
+.social-links a[href*="codepen.io"]:hover {
+   background-color: #000000;
+   color: #FFF;
+}
+.social-links a[href*="tumblr.com"]:hover {
+   background-color: #314358;
+   color: #FFF;
+}
+.social-links a[href*="tripadvisor.com"]:hover {
+   background-color: #56933F;
+   color: #FFF;
+}
+.social-links a[href*="soundcloud.com"]:hover {
+   background-color: #FF6A22;
+   color: #FFF;
+}
+.social-links a[href*="digg.com"]:hover {
+   background-color: #1B5891;
+   color: #FFF;
+}
+.social-links a[href*="reddit.com"]:hover {
+   background-color: #FF4500;
+   color: #FFF;
+}
+.social-links a[href*="stumbleupon.com"]:hover {
+   background-color: #EB4823;
+   color: #FFF;
+}
+.social-links a[href*="getpocket.com"]:hover {
+   background-color: #ED4054;
+   color: #FFF;
+}
+.social-links a[href*="dropbox.com"]:hover {
+   background-color: #007EE6;
+   color: #FFF;
+}
+.social-links a[href*="vine.co"]:hover {
+   background-color: #00BF8F;
+   color: #FFF;
+}
+.social-links a[href*="vk.com"]:hover {
+   background-color: #55779B;
+   color: #FFF;
+}
+.social-links a[href*="whatsapp.com"]:hover {
+   background-color: #0DC143;
+   color: #FFF;
+}
+.social-links a[href*="last.fm"]:hover {
+   background-color: #B90000;
+   color: #FFF;
+}
+.social-links a[href*="forumbee.com"]:hover {
+   background-color: #85AB2E;
+   color: #FFF;
+}
+.social-links a[href*="foursquare.com"]:hover {
+   background-color: #FA4778;
+   color: #FFF;
+}
